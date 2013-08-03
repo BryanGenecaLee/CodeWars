@@ -23,7 +23,7 @@ namespace CruiseControl
             // Add Commands Here.
             // You can only give as many commands as you have un-sunk vessels. Powerup commands do not count against this number. 
             // You are free to use as many powerup commands at any time. Any additional commands you give (past the number of active vessels) will be ignored.
-			cmds.Add(new Command { vesselid = vessel.Id, action = "fire", coordinate = new Coordinate { X = 1, Y = 1 } });
+			cmds.Add(new Command { vesselid = 1, action = "fire", coordinate = new Coordinate { X = 1, Y = 1 } });
 
             return cmds;
         }
